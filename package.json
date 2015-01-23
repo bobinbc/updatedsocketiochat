@@ -2,7 +2,7 @@
     "name": "chatapp",
     "main":"index.js",
     "dependencies":{
-        "express": "*",
+        "express": "~3.2.6",
         "engine.io": "*",
         "socket.io": "*",
         "debug": "*",
