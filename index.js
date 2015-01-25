@@ -1,7 +1,7 @@
 var express = require("express"),
     app = express(),
     server = require('http').createServer(app),
-    port = process.env.PORT || 8080,
+    port = process.env.PORT || 3000,
     io = require('socket.io')(server),
     _ = require('underscore');
 
